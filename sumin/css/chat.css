@@ -1,0 +1,72 @@
+ 			html, body {
+                                margin: 0;
+                                padding: 0;
+                                background-color: gray;
+                        }
+                        .t-bar {
+
+                                background-color:#32353f;
+                                position:fixed;
+                                width:100%;
+                                z-index:100;
+                         }
+
+                        .t-container {
+
+                                padding:10px;
+                                font-size:2.5em;
+                                color:white;
+
+                        }
+                        .input-bar {
+
+                                position: fixed;
+                                bottom: 40px;
+                                z-index:100;
+                                width: 0;
+                                height: 0;
+                                content:"";
+                                border-color: whitesmoke transparent transparent transparent;
+                                margin-top:5px;width:85%;border-radius:5px;padding:5px;display:flex;
+                        }
+                        .mytext{
+                                border:0;padding:10px;background:whitesmoke;
+                        }
+                        .text{
+                                width:85%;display:flex;flex-direction:column;
+                        }
+                        .text-l{
+                                float:left;padding-right:9px;
+                        }
+                        .text-r{
+                                float:right;padding-left:10px;
+                        }
+			.chat_sumin{
+				width:100%;
+				padding-bottom:10px;
+				clear:both;
+			}
+			.chat_user{
+				width:100%;
+				padding-bottom:10px;
+				text-align:right;
+			}
+			.bubble {
+				font-size:1.7em;
+				background-color:white; 
+				border: 1pt solid;
+    				border-bottom: 3pt solid;
+    				border-right: 3pt solid;
+    				border-radius: 20pt;
+    				padding: 5pt 15pt;
+			    	margin-bottom: 2pt;
+				display:inline-block;
+				max-width:80%;
+				word-wrap : break-word;
+	
+			}	
+			.milk_simi_icon_1 {
+				float:left;
+				content: url('../image/sumin.JPG');
+				width:60pt;
+			}

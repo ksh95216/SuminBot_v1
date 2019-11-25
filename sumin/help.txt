@@ -1,0 +1,13 @@
+<h4>HELP</h4>
+<h5>/^help$/i     => HELP</h5>
+<h5>/^hi~?$/i => chat start</h5>
+<h5>/^bye~?$/i => chat end<h5>
+<h5>/^?*$/ => ?</h5>
+<h5>/^yasuo$/i => ?</h5>
+<h5>/^yasuo q.?*$/i => ?</h5>
+<h5>/^yasuo w.?*$/i => ?</h5>
+<h5>/^yasuo e.?*$/i => ?</h5>
+<h5>/^yasuo r.?*$/i => ?</h5>
+<h5>/^&#x1F3D3$/i => ?</h5>
+<h5>/^die\? (.*?)$/i => ?</h5>
+<h5>/^request (.*?)$/i => ?</h5>
