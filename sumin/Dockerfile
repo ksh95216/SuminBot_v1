@@ -7,6 +7,7 @@ RUN apt-get install -y php7.0-fpm libapache2-mod-php
 
 RUN apt-get install -y vim
 RUN apt-get install -y curl
+RUN apt-get install iputils-ping
 
 
 ADD . /var/www/html
